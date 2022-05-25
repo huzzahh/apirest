@@ -1,22 +1,38 @@
 {
-    "glossary": {
-        "title": "example glossary",
-		"GlossDiv": {
-            "title": "S",
-			"GlossList": {
-                "GlossEntry": {
-                    "ID": "SGML",
-					"SortAs": "SGML",
-					"GlossTerm": "Standard Generalized Markup Language",
-					"Acronym": "SGML",
-					"Abbrev": "ISO 8879:1986",
-					"GlossDef": {
-                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
-						"GlossSeeAlso": ["GML", "XML"]
-                    },
-					"GlossSee": "markup"
-                }
+    "hoteis": [{
+        "parqueFlores": {
+            "classificacao": 3,
+            "clientesNormais": {
+                "taxaSemana": 110,
+                "taxaFimSemana": 90
+            },
+            "clientesFidelidade": {
+                "taxaSemana": 80,
+                "taxaFimSemana": 80
+            }
+        },
+        "jardimBotanico": {
+            "classificacao": 4,
+            "clientesNormais": {
+                "taxaSemana": 160,
+                "taxaFimSemana": 60
+            },
+            "clientesFidelidade": {
+                "taxaSemana": 110,
+                "taxaFimSemana": 50
+            }
+        },
+        "marAtlantico": {
+            "classificacao": 5,
+            "clientesNormais": {
+                "taxaSemana": 220,
+                "taxaFimSemana": 150
+            },
+            "clientesFidelidade": {
+                "taxaSemana": 100,
+                "taxaFimSemana": 40
             }
         }
     }
+    ]
 }
